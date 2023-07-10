@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ECEFF1;
+
+}
+.containerline {
+    width: 1086px;
+    border: 1px solid blue;
+}
+.container {
+    margin: 0 auto;
+    border: 1px solid red;
+    background: white;
+    padding: 20px;
+    border-radius: 24px;
+}
+.content {
+    width: 427px;
+    height: 343px;
+    display: flex;
+
+}
+.energy {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+
+}
+.panel img {
+    border-radius: 16px;
+}
+.hed h4 {
+    width: 500px;
+    height: 32px;
+    font-family: 'Nunito Sans';
+    font-size: 32px;
+    color: #284B80;
+    margin-bottom: 24px;
+
+}
+.hed p {
+
+    width: 541px;
+    height: 141px;
+    color: #8D98AA;
+    line-height: 28px;
+    font-size: 22px;
+}
+.profil {
+    justify-content: space-between;
+    padding-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.profil h5 {
+    width: 110x;
+    height: 28px;
+    color: #284B80;
+    font-size: 20px;
+    font-family: 'Inter';
+    line-height: 32px;
+
+}
+.profil p {
+    width: 290px;
+    height: 56px;
+    font-size: 20px;
+    font-family: 'Inter';
+    line-height: 28px;
+    font-weight: 300;
+
+}
+.cal {
+    transform: translateX(-50px);
+}
+.main {
+    display: flex;
+    margin-top: 50 PX;
+    width: 354px;
+    height: 521px;
+    border: 1px solid red;
+    margin-bottom: 15px;
+    padding: 14px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    margin-bottom: 60px;
+}
+.talgi img {
+    width: 326px;
+    height: 268px;
+    border-radius: 16px;
+}
+.how {
+    width: 306px;
+    height: 86px;
+    color: #284B80;
+    font-family: 'Inder';
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 25px;
+}
+.how h3 {
+    margin-bottom: 24px;
+}
+.lock {
+    margin-top: 64px;
+    display: flex;
+    color: black;
+    gap: 24px;
+}
+.lock h5 {
+    width: 238px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Inter';
+    line-height: 28px;
+    color: #284B80;
+}
+.lock p {
+    width: 238px;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Inter';
+    line-height: 25px;
+    color: #8D98AA;
+}
+.six{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Rawae {
+    display: flex;
+    width: 492px;
+    height: 633px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+
+}
+.Rawae .tabiat  img{
+    border-radius: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.Phuket h4 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--dark-button-medium, #6E7491);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.Avi {
+    display: flex;
+    gap: 10px;
+}
+.Avi p {
+    display: flex;
+flex-direction: column;
+flex: 1 0 0;
+color: var(--dark-button-light, #7C8DB0);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
